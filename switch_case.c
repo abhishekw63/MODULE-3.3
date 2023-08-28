@@ -29,7 +29,13 @@ int main()
         break;
         
         case 4:
-        printf("division is %d",num1/num2);
+            if(num2!=0)
+            {
+                 printf("division is %f",(float)num1/num2);
+            }
+            else
+            {
+                printf("\ndivision is not possible");
         break;
 
         default:
@@ -37,4 +43,5 @@ int main()
         break;
 
     }
+        return 0;
 }
